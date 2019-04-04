@@ -12,7 +12,7 @@ body {
 }
 
 section {
-  margin-top: 400px;
+  margin-top: 450px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -179,4 +179,22 @@ img[modal="on"] {
 .popup-modal-dismiss:hover {
   opacity: 0.8;
   transform: rotate(180deg);
+}
+
+@media screen and (max-width: 420px) {
+  body {
+    background-image: url(../img/background3.jpg);
+    background-size: contain;
+  }
+  section {
+    margin-top: 110px;
+  }
+  .thumbs {
+    width: 100%;
+    max-width: 110px;
+    margin: 2px;
+  }
+  footer {
+    padding: 10px 0px;
+  }
 }
