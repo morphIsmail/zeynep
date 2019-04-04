@@ -194,7 +194,13 @@ img[modal="on"] {
     max-width: 110px;
     margin: 2px;
   }
+  .thumbs:before, .thumbs .caption {
+    display: none;
+  }
   footer {
     padding: 10px 0px;
+  }
+  img[modal="on"] {
+    max-width: 100%;
   }
 }
